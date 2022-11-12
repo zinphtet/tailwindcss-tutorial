@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../dist/output.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Manage</title>
+	</head>
+	<body>
+		<nav class="mycontainer flex flex-row justify-between items-center py-8">
+			<div>
+				<img src="./images/logo.svg" alt="logo of the site" />
+			</div>
+			<ul class="sm:flex space-x-8 hidden transition-all duration-500" id="nav">
+				<li class="nav-item">Pricing</li>
+				<li class="nav-item">Products</li>
+				<li class="nav-item">About Us</li>
+				<li class="nav-item">Careers</li>
+				<li class="nav-item">Community</li>
+			</ul>
+
+			<button class="hidden btn md:inline-block">Get Started</button>
+			<div class="sm:hidden cursor-pointer flex flex-col gap-1" id="menu">
+				<div class="menu-t menu" id="menu-t"></div>
+				<div class="menu-m menu" id="menu-m"></div>
+				<div class="menu-b menu" id="menu-b"></div>
+			</div>
+		</nav>
+
+		<!-- banner -->
+		<section
+			class="mycontainer my-24 flex sm:flex-row flex-col-reverse items-center gap-8"
+		>
+			<div class="flex-1 flex flex-col gap-8 sm:text-left text-center">
+				<p class="text-4xl font-semibold font-sans text-darkBlue">
+					Bring everyone together to build better products
+				</p>
+				<p class="text-darkGrayishBlue text-base">
+					Manage make it simple for software teams to plan day-to-day tasks
+					while keeping the larger team goals in view
+				</p>
+				<div>
+					<button class="btn">Get Started</button>
+				</div>
+			</div>
+			<div class="flex-1">
+				<img src="./images/illustration-intro.svg" alt="banner illustration" />
+			</div>
+		</section>
+
+		<!-- differences -->
+
+		<section
+			class="mycontainer my-24 flex flex-col sm:flex-row gap-12 sm:gap-20"
+		>
+			<div class="flex-1 flex flex-col gap-8">
+				<p class="text-3xl text-darkBlue font-semibold">
+					What's different about &nbsp; Manage ?
+				</p>
+				<p class="text-darkGrayishBlue text-base">
+					Manage provides all the functionality your team needs , without the
+					complexity .Our software team is tailor-made for modern digital
+					product team.
+				</p>
+			</div>
+			<div class="flex-1 flex flex-col gap-8">
+				<div class="flex flex-col gap-2">
+					<div
+						class="flex flex-row gap-4 items-center sm:bg-transparent bg-veryPaleRed rounded-lg"
+					>
+						<div class="num">01</div>
+						<p class="num_title">Track company-wide progress</p>
+					</div>
+					<div class="flex flex-row gap-4">
+						<div class="num hidden opacity-0 sm:block">01</div>
+						<p class="para">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+							iusto itaque harum dicta consectetur provident similique
+							voluptatem, saepe tenetur vitae?
+						</p>
+					</div>
+				</div>
+
+				<div class="flex flex-col gap-2">
+					<div
+						class="flex flex-row gap-4 items-center sm:bg-transparent bg-veryPaleRed rounded-lg"
+					>
+						<div class="num">02</div>
+						<p class="num_title">Advanced Built-in reports</p>
+					</div>
+					<div class="flex flex-row gap-4">
+						<div class="num hidden opacity-0 sm:block">01</div>
+						<p class="para">
+							Set internal delivery estimates and track progress toward company
+							goals . Our customisable dashboard helps you build out the reports
+							you need to keep key stakeholders informed
+						</p>
+					</div>
+				</div>
+
+				<div class="flex flex-col gap-2">
+					<div
+						class="flex flex-row gap-4 items-center sm:bg-transparent bg-veryPaleRed rounded-lg"
+					>
+						<div class="num">03</div>
+						<p class="num_title">Everything you need in one place</p>
+					</div>
+					<div class="flex flex-row gap-4">
+						<div class="num hidden opacity-0 sm:block">01</div>
+						<p class="para">
+							Stop jumping from onr service to another to communicate , store
+							files , track tasks and share documents . Manage offers an all in
+							one team productivity solution.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimonial -->
+
+		<section class="mycontainer my-24">
+			<p class="text-center font-semibold text-darkBlue text-3xl">
+				What They've Said .
+			</p>
+			<div class="flex gap-8 my-16">
+				<div
+					class="item flex flex-col gap-6 items-center bg-veryPaleRed py-2 pb-6 px-4"
+				>
+					<div class="w-[3rem] h-[3rem] overflow-hidden -mt-[2rem]">
+						<img
+							class="w-full h-full"
+							src="./images/avatar-ali.png"
+							alt="avatar"
+						/>
+					</div>
+					<p class="name">Alisha</p>
+					<p class="para text-center">
+						"We have been able to cancel so many other subscriptions since using
+						Manage. There is no more cross-channel confusion and everyone is
+						much more focused"
+					</p>
+				</div>
+
+				<div
+					class="item hidden sm:flex flex-col gap-6 items-center bg-veryPaleRed py-2 pb-6 px-4"
+				>
+					<div class="w-[3rem] h-[3rem] overflow-hidden -mt-[2rem]">
+						<img
+							class="w-full h-full"
+							src="./images/avatar-richard.png"
+							alt="avatar"
+						/>
+					</div>
+					<p class="name">Richard</p>
+					<p class="para text-center">
+						"We have been able to cancel so many other subscriptions since using
+						Manage. There is no more cross-channel confusion and everyone is
+						much more focused"
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- calltoAction -->
+		<section
+			class="mycontainer py-12 bg-brightRed flex flex-col sm:flex-row justify-between items-center gap-8"
+		>
+			<div class="px-8">
+				<p class="text-white text-3xl font-semibold sm:text-left text-center">
+					Simplify how your team <br />
+					work today.
+				</p>
+			</div>
+			<div class="px-8">
+				<button class="btn-2">Get Started</button>
+			</div>
+		</section>
+
+		<!-- footer -->
+
+		<section
+			class="mycontainer py-12 bg-darkBlue flex flex-wrap gap-16 justify-between"
+		>
+			<div class="flex flex-col gap-8">
+				<img src="./images/logo-2.svg" class="text-white" alt="footer logo" />
+				<div class="flex flex-row gap-4">
+					<img src="./images/icon-facebook.svg" alt="facebook" />
+					<img src="./images/icon-instagram.svg" alt="instagram" />
+					<img src="./images/icon-twitter.svg" alt="twitter" />
+					<img src="./images/icon-youtube.svg" alt="youtube" />
+				</div>
+			</div>
+
+			<ul class="flex flex-col gap-2">
+				<li class="foot-item">Home</li>
+				<li class="foot-item">Pricing</li>
+				<li class="foot-item">Products</li>
+				<li class="foot-item">About Us</li>
+			</ul>
+
+			<ul class="flex flex-col gap-2">
+				<li class="foot-item">Careers</li>
+				<li class="foot-item">Community</li>
+				<li class="foot-item">Privay Policy</li>
+			</ul>
+
+			<div class="flex flex-col gap-4">
+				<div>
+					<input
+						type="text"
+						class="inbox"
+						placeholder="Updates in your inbox..."
+					/>
+					<button class="go">Go</button>
+				</div>
+				<p class="para">Copyright 2022 . All Rights Reserved .</p>
+			</div>
+		</section>
+
+		<script src="./JS/menu.js"></script>
+	</body>
+</html>
